@@ -5,10 +5,12 @@
 Интегрированная система ориентации на базе STM32F446RET6. Модуль реализует замкнутый контур управления: от сбора данных с инерциального блока LSM6DSL и магнитометра LIS2MDL
 до исполнения ПИД-алгоритмов для активной стабилизации аппарата. Выходной каскад на базе H-мостов DRV8837 обеспечивает прецизионное управление током в обмотках магниторкеров,
 позволяя формировать необходимый магнитный момент. Система также включает двойной стек Flash-памяти для хранения телеметрии и высокоточный ЦАП для калибровки систем управления.
+<img width="1157" height="855" alt="image" src="https://github.com/user-attachments/assets/b15b8b62-5064-4049-b120-58cae48837c0" />
 
 2. Electrical Power System (EPS)
 Модуль электропитания с поддержкой MPPT (вход от 1В) и выходными шинами 3.3В / 5В. Базируется на STM32L051C8T6 и контроллерах LTC3105 / BQ29700 для интеллектуального управления 
 зарядом и защиты АКБ.
+<img width="828" height="760" alt="image" src="https://github.com/user-attachments/assets/26874ece-1e2c-4eb8-b4d8-b46ea6f02c54" />
 
 Технологический стек: * CAD: Altium Designer (Multi-sheet Schematics, PCB Layout, OutJob).
 Hardware: STM32 (Cortex-M4/M0+), MPPT Power Harvesting, Li-ion Protection, Precision Sensing.
